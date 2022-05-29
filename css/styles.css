@@ -11,7 +11,7 @@ body {
   color: var(--first-text-color);
   background-color: var(--basic-color-white);
   font-family: "Roboto", sans-serif;
-  font-size: 14;
+  font-size: 14px;
 }
 .link {
   text-decoration: none;
@@ -28,7 +28,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo > span {
+.logo .logo-part {
   color: var(--first-text-color);
 }
 .site-nav .link {
@@ -83,15 +83,7 @@ body {
 .secondary-hero-btn:hover,
 .secondary-hero-btn:focus {
   background-color: var(--btn-background);
-  color: var(--first-text-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
+  color: #188cef;
 }
 /* ----------------SECTION особенности---------------- */
 .features-title {
@@ -167,17 +159,9 @@ footer .logo-footer {
 }
 /* ---------------PORTFILIO-TITLE------------- */
 .secondary:hover,
-.secondary:hover {
+.secondary:focus {
   background-color: var(--accent-color);
   color: var(--basic-color-white);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
 }
 .portfolio-btn,
 .portfolio-btn-main {
